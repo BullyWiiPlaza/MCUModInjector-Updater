@@ -3,6 +3,7 @@ using System.Windows.Forms;
 
 namespace Minecraft_Wii_U_Mod_Injector_Updater
 {
+    // TODO Download errors/failures are not detected (e.g. when the url is wrong)
     static class Program
     {
         /// <summary>
