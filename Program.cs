@@ -11,7 +11,7 @@ namespace Minecraft_Wii_U_Mod_Injector_Updater
         [STAThread]
         static void Main(string[] arguments)
         {
-            var repositoryBaseUrl = "https://github.com/Kashiiera/Minecraft-Wii-U-Mod-Injector";
+            var repositoryBaseUrl = "https://github.com/BullyWiiPlaza/Minecraft-Wii-U-Mod-Injector";
             if (arguments.Length == 0)
             {
                 MainForm.DownloadUrl = repositoryBaseUrl + "/releases/latest/download/Minecraft.Wii.U.Mod.Injector.exe";
